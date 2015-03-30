@@ -1,0 +1,18 @@
+{
+  "name": "lunchbreakideas",
+  "description": "lunchbreakideas",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "homepage_url": "http://momane.com/",
+  "icons": {
+    "128": "logo.png",
+    "16": "logo.png"
+  },
+  "permissions":["http://planning.lunchbreakideas.com/*"],
+    "browser_action": {
+    "default_icon": "logo.png",
+    "default_title": "lunchbreakideas",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["lib/*"]
+}
